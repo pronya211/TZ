@@ -1,0 +1,31 @@
+CreateSession
+
+{ 
+  "user": {
+    "login": "pablo777",
+    "password": "123qwe123"
+  }
+}
+
+
+GetUser
+
+{ 
+  "user": {
+    "login": "pablo777"
+  }
+}
+
+
+
+UpdateUser
+
+{ 
+  "user": {
+    "login": "pablo888",
+    "email": "1pronya@mail.ru",
+    "password": "123qwe123",
+    "profanity_filter": false,
+    "public_themes": false
+  }
+}
